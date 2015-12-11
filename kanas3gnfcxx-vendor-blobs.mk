@@ -15,7 +15,7 @@
 #
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/kanas3gnfcxx/proprietary/lib:system/lib/libomx_m4vh263dec_sw_sprd.so \
+    vendor/samsung/kanas3gnfcxx/proprietary/lib/libomx_m4vh263dec_sw_sprd.so:system/lib/libomx_m4vh263dec_sw_sprd.so \
     vendor/samsung/kanas3gnfcxx/proprietary/lib:system/lib/libomx_m4vh263dec_hw_sprd.so \
     vendor/samsung/kanas3gnfcxx/proprietary/lib:system/lib/libomx_m4vh263enc_hw_sprd.so \
     vendor/samsung/kanas3gnfcxx/proprietary/lib:system/lib/libomx_avcdec_hw_sprd.so \
@@ -24,7 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kanas3gnfcxx/proprietary/lib:system/lib/libomx_vpxdec_hw_sprd.so \
     vendor/samsung/kanas3gnfcxx/proprietary/lib:system/lib/libomx_aacdec_sprd.so \
     vendor/samsung/kanas3gnfcxx/proprietary/lib:system/lib/libomx_mp3dec_sprd.so \
-    vendor/samsung/kanas3gnfcxx/proprietary/lib:system/lib/libril.so \
+    vendor/samsung/kanas3gnfcxx/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/kanas3gnfcxx/proprietary/lib:system/lib/libreference-ril_sp.so \
     vendor/samsung/kanas3gnfcxx/proprietary/bin:system/bin/rild \
     vendor/samsung/kanas3gnfcxx/proprietary/bin:system/bin/at_distributor \
