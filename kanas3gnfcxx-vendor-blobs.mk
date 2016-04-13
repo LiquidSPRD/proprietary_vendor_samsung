@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kanas3gnfcxx/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     vendor/samsung/kanas3gnfcxx/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
     vendor/samsung/kanas3gnfcxx/proprietary/etc/audio_hw.xml:system/etc/audio_hw.xml \
+    vendor/samsung/kanas3gnfcxx/proprietary/etc/default_gain.conf:system/etc/default_gain.conf \
     vendor/samsung/kanas3gnfcxx/proprietary/etc/audio_para:system/etc/audio_para \
     vendor/samsung/kanas3gnfcxx/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/samsung/kanas3gnfcxx/proprietary/etc/codec_pga.xml:system/etc/codec_pga.xml \
@@ -57,6 +58,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kanas3gnfcxx/proprietary/bin/macloader:system/bin/macloader \
     vendor/samsung/kanas3gnfcxx/proprietary/vendor/firmware/BCM4330B1_002.001.003.1025.1303.hcd:system/vendor/firmware/BCM4330B1_002.001.003.1025.1303.hcd \
     vendor/samsung/kanas3gnfcxx/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/kanas3gnfcxx/proprietary/bin/mfgloader:system/bin/mfgloader \
+    vendor/samsung/kanas3gnfcxx/proprietary/bin/dhcpcd:system/bin/dhcpcd \
     vendor/samsung/kanas3gnfcxx/proprietary/bin/modemd:system/bin/modemd \
     vendor/samsung/kanas3gnfcxx/proprietary/bin/nvitemd:system/bin/nvitemd \
     vendor/samsung/kanas3gnfcxx/proprietary/bin/phoneserver:system/bin/phoneserver \
