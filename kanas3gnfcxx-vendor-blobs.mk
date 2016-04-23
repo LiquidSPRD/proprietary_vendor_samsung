@@ -35,6 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kanas3gnfcxx/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
     vendor/samsung/kanas3gnfcxx/proprietary/lib/libsprd_agps_agent.so:system/lib/libsprd_agps_agent.so \
     vendor/samsung/kanas3gnfcxx/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/samsung/kanas3gnfcxx/proprietary/lib/hw/nfc_nci.sc7735s.so:system/lib/hw/nfc_nci.sc7735s.so \
     vendor/samsung/kanas3gnfcxx/proprietary/lib/libMali.so:system/lib/libMali.so \
     vendor/samsung/kanas3gnfcxx/proprietary/lib/libboost.so:system/lib/libboost.so \
     vendor/samsung/kanas3gnfcxx/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
@@ -55,8 +56,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kanas3gnfcxx/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/kanas3gnfcxx/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/kanas3gnfcxx/proprietary/etc/wifi/bcmdhd_p2p.bin:system/etc/wifi/bcmdhd_p2p.bin \
+    vendor/samsung/kanas3gnfcxx/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
+    vendor/samsung/kanas3gnfcxx/proprietary/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/kanas3gnfcxx/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
+    vendor/samsung/kanas3gnfcxx/proprietary/etc/migrate_nfc.txt:system/etc/migrate_nfc.txt \
     vendor/samsung/kanas3gnfcxx/proprietary/bin/macloader:system/bin/macloader \
     vendor/samsung/kanas3gnfcxx/proprietary/vendor/firmware/BCM4330B1_002.001.003.1025.1303.hcd:system/vendor/firmware/BCM4330B1_002.001.003.1025.1303.hcd \
+    vendor/samsung/kanas3gnfcxx/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/samsung/kanas3gnfcxx/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/kanas3gnfcxx/proprietary/bin/mfgloader:system/bin/mfgloader \
     vendor/samsung/kanas3gnfcxx/proprietary/bin/dhcpcd:system/bin/dhcpcd \
@@ -70,11 +78,22 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kanas3gnfcxx/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/kanas3gnfcxx/proprietary/lib/libreference-ril_sp.so:system/lib/libreference-ril_sp.so \
     vendor/samsung/kanas3gnfcxx/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+    vendor/samsung/kanas3gnfcxx/proprietary/framework/com.broadcom.nfc.jar:system/framework/com.broadcom.nfc.jar
+
+    # vendor/samsung/kanas3gnfcxx/proprietary/framework/com.android.nfc_extras.jar:system/framework/com.android.nfc_extras.jar\
+    # vendor/samsung/kanas3gnfcxx/proprietary/framework/com.gsma.services.nfc.jar:system/framework/com.gsma.services.nfc.jar\
+
+PRODUCT_COPY_FILES += \
     vendor/samsung/kanas3gnfcxx/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/kanas3gnfcxx/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/kanas3gnfcxx/proprietary/lib/libisp.so:system/lib/libisp.so \
     vendor/samsung/kanas3gnfcxx/proprietary/lib/libAMSWiFiLibs-1.0.6.so:system/lib/libAMSWiFiLibs-1.0.6.so \
-    vendor/samsung/kanas3gnfcxx/proprietary/lib/libtwifingr.so:system/lib/libtwifingr.so \
+    vendor/samsung/kanas3gnfcxx/proprietary/lib/libtwifingr.so:system/lib/libtwifingr.so
+
+    # vendor/samsung/kanas3gnfcxx/proprietary/lib/libnfc-nci.so:system/lib/libnfc-nci.so \
+    # vendor/samsung/kanas3gnfcxx/proprietary/lib/libnfc_nci_jni.so:system/lib/libnfc_nci_jni.so \
+
+PRODUCT_COPY_FILES += \
     vendor/samsung/kanas3gnfcxx/proprietary/lib/libswiftkeysdk-java.so:system/lib/libswiftkeysdk-java.so \
     vendor/samsung/kanas3gnfcxx/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
     vendor/samsung/kanas3gnfcxx/proprietary/lib/libmorpho_easy_hdr.so:system/lib/libmorpho_easy_hdr.so \
